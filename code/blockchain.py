@@ -12,7 +12,8 @@ class Block:
 		print("Block #%s generated!" % index)
 		print("Date: %s" % timestamp)
 		print("Block Data: %s" % data)
-		print("Block Hash %s\n" % self.hash)
+		print("Block Salt: %s" % self.salt)
+		print("Block Hash: %s\n" % self.hash)
 
 	def hash_block(self):
 		temp = ""
@@ -23,6 +24,7 @@ class Block:
 			sha = hashlib.sha256()
 			sha.update(text)
 			temp = sha.hexdigest()
+		self.salt = salt
 		return temp
 
 def next_block(prev_block, data):
