@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F067AA9F2276CDF100BAA8B9 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = F067AA9E2276CDF100BAA8B9 /* info.png */; };
+		F067AAA42276E38000BAA8B9 /* home-7.png in Resources */ = {isa = PBXBuildFile; fileRef = F067AAA22276E38000BAA8B9 /* home-7.png */; };
+		F067AAA52276E38000BAA8B9 /* search-7.png in Resources */ = {isa = PBXBuildFile; fileRef = F067AAA32276E38000BAA8B9 /* search-7.png */; };
+		F099CD382276BF5E00488981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099CD372276BF5E00488981 /* AppDelegate.swift */; };
+		F099CD3A2276BF5E00488981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099CD392276BF5E00488981 /* ViewController.swift */; };
+		F099CD3D2276BF5E00488981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F099CD3B2276BF5E00488981 /* Main.storyboard */; };
+		F099CD3F2276BF6000488981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F099CD3E2276BF6000488981 /* Assets.xcassets */; };
+		F099CD422276BF6000488981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F099CD402276BF6000488981 /* LaunchScreen.storyboard */; };
+		F099CD4D2276BF6000488981 /* PharmaCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099CD4C2276BF6000488981 /* PharmaCoinTests.swift */; };
+		F099CD582276BF6000488981 /* PharmaCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099CD572276BF6000488981 /* PharmaCoinUITests.swift */; };
+		F099CD662276C70D00488981 /* Library.png in Resources */ = {isa = PBXBuildFile; fileRef = F099CD652276C70D00488981 /* Library.png */; };
+		F099CD6A2276C85900488981 /* PatientData.png in Resources */ = {isa = PBXBuildFile; fileRef = F099CD672276C85900488981 /* PatientData.png */; };
+		F099CD6B2276C85900488981 /* Other.png in Resources */ = {isa = PBXBuildFile; fileRef = F099CD682276C85900488981 /* Other.png */; };
+		F099CD6C2276C85900488981 /* PharmaCoin.png in Resources */ = {isa = PBXBuildFile; fileRef = F099CD692276C85900488981 /* PharmaCoin.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F099CD492276BF6000488981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F099CD2C2276BF5E00488981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F099CD332276BF5E00488981;
+			remoteInfo = PharmaCoin;
+		};
+		F099CD542276BF6000488981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F099CD2C2276BF5E00488981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F099CD332276BF5E00488981;
+			remoteInfo = PharmaCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F067AA9E2276CDF100BAA8B9 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		F067AAA22276E38000BAA8B9 /* home-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-7.png"; sourceTree = "<group>"; };
+		F067AAA32276E38000BAA8B9 /* search-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-7.png"; sourceTree = "<group>"; };
+		F099CD342276BF5E00488981 /* PharmaCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PharmaCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F099CD372276BF5E00488981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F099CD392276BF5E00488981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F099CD3C2276BF5E00488981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F099CD3E2276BF6000488981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F099CD412276BF6000488981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F099CD432276BF6000488981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F099CD482276BF6000488981 /* PharmaCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PharmaCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F099CD4C2276BF6000488981 /* PharmaCoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmaCoinTests.swift; sourceTree = "<group>"; };
+		F099CD4E2276BF6000488981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F099CD532276BF6000488981 /* PharmaCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PharmaCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F099CD572276BF6000488981 /* PharmaCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmaCoinUITests.swift; sourceTree = "<group>"; };
+		F099CD592276BF6000488981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F099CD652276C70D00488981 /* Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Library.png; sourceTree = "<group>"; };
+		F099CD672276C85900488981 /* PatientData.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PatientData.png; sourceTree = "<group>"; };
+		F099CD682276C85900488981 /* Other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Other.png; sourceTree = "<group>"; };
+		F099CD692276C85900488981 /* PharmaCoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PharmaCoin.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F099CD312276BF5E00488981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F099CD452276BF6000488981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F099CD502276BF6000488981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F099CD2B2276BF5E00488981 = {
+			isa = PBXGroup;
+			children = (
+				F099CD362276BF5E00488981 /* PharmaCoin */,
+				F099CD4B2276BF6000488981 /* PharmaCoinTests */,
+				F099CD562276BF6000488981 /* PharmaCoinUITests */,
+				F099CD352276BF5E00488981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F099CD352276BF5E00488981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F099CD342276BF5E00488981 /* PharmaCoin.app */,
+				F099CD482276BF6000488981 /* PharmaCoinTests.xctest */,
+				F099CD532276BF6000488981 /* PharmaCoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F099CD362276BF5E00488981 /* PharmaCoin */ = {
+			isa = PBXGroup;
+			children = (
+				F067AAA22276E38000BAA8B9 /* home-7.png */,
+				F067AAA32276E38000BAA8B9 /* search-7.png */,
+				F067AA9E2276CDF100BAA8B9 /* info.png */,
+				F099CD372276BF5E00488981 /* AppDelegate.swift */,
+				F099CD392276BF5E00488981 /* ViewController.swift */,
+				F099CD3B2276BF5E00488981 /* Main.storyboard */,
+				F099CD682276C85900488981 /* Other.png */,
+				F099CD672276C85900488981 /* PatientData.png */,
+				F099CD692276C85900488981 /* PharmaCoin.png */,
+				F099CD652276C70D00488981 /* Library.png */,
+				F099CD3E2276BF6000488981 /* Assets.xcassets */,
+				F099CD402276BF6000488981 /* LaunchScreen.storyboard */,
+				F099CD432276BF6000488981 /* Info.plist */,
+			);
+			path = PharmaCoin;
+			sourceTree = "<group>";
+		};
+		F099CD4B2276BF6000488981 /* PharmaCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				F099CD4C2276BF6000488981 /* PharmaCoinTests.swift */,
+				F099CD4E2276BF6000488981 /* Info.plist */,
+			);
+			path = PharmaCoinTests;
+			sourceTree = "<group>";
+		};
+		F099CD562276BF6000488981 /* PharmaCoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F099CD572276BF6000488981 /* PharmaCoinUITests.swift */,
+				F099CD592276BF6000488981 /* Info.plist */,
+			);
+			path = PharmaCoinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F099CD332276BF5E00488981 /* PharmaCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F099CD5C2276BF6000488981 /* Build configuration list for PBXNativeTarget "PharmaCoin" */;
+			buildPhases = (
+				F099CD302276BF5E00488981 /* Sources */,
+				F099CD312276BF5E00488981 /* Frameworks */,
+				F099CD322276BF5E00488981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PharmaCoin;
+			productName = PharmaCoin;
+			productReference = F099CD342276BF5E00488981 /* PharmaCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F099CD472276BF6000488981 /* PharmaCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F099CD5F2276BF6000488981 /* Build configuration list for PBXNativeTarget "PharmaCoinTests" */;
+			buildPhases = (
+				F099CD442276BF6000488981 /* Sources */,
+				F099CD452276BF6000488981 /* Frameworks */,
+				F099CD462276BF6000488981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F099CD4A2276BF6000488981 /* PBXTargetDependency */,
+			);
+			name = PharmaCoinTests;
+			productName = PharmaCoinTests;
+			productReference = F099CD482276BF6000488981 /* PharmaCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F099CD522276BF6000488981 /* PharmaCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F099CD622276BF6000488981 /* Build configuration list for PBXNativeTarget "PharmaCoinUITests" */;
+			buildPhases = (
+				F099CD4F2276BF6000488981 /* Sources */,
+				F099CD502276BF6000488981 /* Frameworks */,
+				F099CD512276BF6000488981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F099CD552276BF6000488981 /* PBXTargetDependency */,
+			);
+			name = PharmaCoinUITests;
+			productName = PharmaCoinUITests;
+			productReference = F099CD532276BF6000488981 /* PharmaCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F099CD2C2276BF5E00488981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Collin Cao";
+				TargetAttributes = {
+					F099CD332276BF5E00488981 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					F099CD472276BF6000488981 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = F099CD332276BF5E00488981;
+					};
+					F099CD522276BF6000488981 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = F099CD332276BF5E00488981;
+					};
+				};
+			};
+			buildConfigurationList = F099CD2F2276BF5E00488981 /* Build configuration list for PBXProject "PharmaCoin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F099CD2B2276BF5E00488981;
+			productRefGroup = F099CD352276BF5E00488981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F099CD332276BF5E00488981 /* PharmaCoin */,
+				F099CD472276BF6000488981 /* PharmaCoinTests */,
+				F099CD522276BF6000488981 /* PharmaCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F099CD322276BF5E00488981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F067AAA42276E38000BAA8B9 /* home-7.png in Resources */,
+				F067AAA52276E38000BAA8B9 /* search-7.png in Resources */,
+				F099CD422276BF6000488981 /* LaunchScreen.storyboard in Resources */,
+				F099CD6A2276C85900488981 /* PatientData.png in Resources */,
+				F099CD6B2276C85900488981 /* Other.png in Resources */,
+				F099CD6C2276C85900488981 /* PharmaCoin.png in Resources */,
+				F067AA9F2276CDF100BAA8B9 /* info.png in Resources */,
+				F099CD3F2276BF6000488981 /* Assets.xcassets in Resources */,
+				F099CD662276C70D00488981 /* Library.png in Resources */,
+				F099CD3D2276BF5E00488981 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F099CD462276BF6000488981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F099CD512276BF6000488981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F099CD302276BF5E00488981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F099CD3A2276BF5E00488981 /* ViewController.swift in Sources */,
+				F099CD382276BF5E00488981 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F099CD442276BF6000488981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F099CD4D2276BF6000488981 /* PharmaCoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F099CD4F2276BF6000488981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F099CD582276BF6000488981 /* PharmaCoinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F099CD4A2276BF6000488981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F099CD332276BF5E00488981 /* PharmaCoin */;
+			targetProxy = F099CD492276BF6000488981 /* PBXContainerItemProxy */;
+		};
+		F099CD552276BF6000488981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F099CD332276BF5E00488981 /* PharmaCoin */;
+			targetProxy = F099CD542276BF6000488981 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F099CD3B2276BF5E00488981 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F099CD3C2276BF5E00488981 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F099CD402276BF6000488981 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F099CD412276BF6000488981 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F099CD5A2276BF6000488981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F099CD5B2276BF6000488981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F099CD5D2276BF6000488981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A65D9YZMC;
+				INFOPLIST_FILE = PharmaCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = j.PharmaCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F099CD5E2276BF6000488981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A65D9YZMC;
+				INFOPLIST_FILE = PharmaCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = j.PharmaCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F099CD602276BF6000488981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmaCoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = j.PharmaCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PharmaCoin.app/PharmaCoin";
+			};
+			name = Debug;
+		};
+		F099CD612276BF6000488981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmaCoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = j.PharmaCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PharmaCoin.app/PharmaCoin";
+			};
+			name = Release;
+		};
+		F099CD632276BF6000488981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmaCoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = j.PharmaCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PharmaCoin;
+			};
+			name = Debug;
+		};
+		F099CD642276BF6000488981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmaCoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = j.PharmaCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PharmaCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F099CD2F2276BF5E00488981 /* Build configuration list for PBXProject "PharmaCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F099CD5A2276BF6000488981 /* Debug */,
+				F099CD5B2276BF6000488981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F099CD5C2276BF6000488981 /* Build configuration list for PBXNativeTarget "PharmaCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F099CD5D2276BF6000488981 /* Debug */,
+				F099CD5E2276BF6000488981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F099CD5F2276BF6000488981 /* Build configuration list for PBXNativeTarget "PharmaCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F099CD602276BF6000488981 /* Debug */,
+				F099CD612276BF6000488981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F099CD622276BF6000488981 /* Build configuration list for PBXNativeTarget "PharmaCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F099CD632276BF6000488981 /* Debug */,
+				F099CD642276BF6000488981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F099CD2C2276BF5E00488981 /* Project object */;
+}
